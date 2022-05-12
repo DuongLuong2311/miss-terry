@@ -1,0 +1,10 @@
+@mixin col($number) {
+  width: $number;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 15px 0;
+
+  img {
+    width: 100%;
+  }
+}

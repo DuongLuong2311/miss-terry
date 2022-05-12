@@ -1,0 +1,69 @@
+{
+  "escape-room": [
+    {
+      "id": 1,
+      "imgURL": "",
+      "room": "Robbery In The Wonderland",
+      "description": "Cùng lạc vào xứ sở thần tiên với Alice để tìm lại 3 trái tim bị đánh cắp cho Nữ hoàng Đỏ, trước khi cơn giận kinh hoàng của bà ta bắt đầu …",
+      "amount": "4-6",
+      "avaliable": true,
+      "difficulty": 4
+
+    },
+    {
+      "id": 2,
+      "imgURL": "",
+      "room": "Secrets of the Jungle",
+      "description": "Bạn tìm thấy một bộ boardgame cổ. Tò mò, bạn mở ra chơi và bỗng nhiên bạn thấy mình lạc trong một khu rừng đầy rẫy những nguy hiểm rình rập. Chỉ có một lối thoát duy nhất: hoàn thành trò chơi trước khi thời gian kết thúc…",
+      "amount": "4-6",
+      "avaliable": true,
+      "difficulty": 5
+    },
+    {
+      "id": 3,
+      "imgURL": "",
+      "room": "X – Lab: The Cure",
+      "description": "X – Lab là một phòng nghiên cứu bí mật của Chính phủ, nơi thực hiện thí nghiệm trên các dị nhân trẻ để tạo ra liều thuốc mang tên “The Cure”.Nhiệm vụ của các bạn là đột nhập vào phòng thí nghiệm này và tìm ra bí ẩn của Vắc xin “The Cure”.",
+      "amount": "2-4",
+      "avaliable": true,
+      "difficulty": 5
+    },
+    {
+      "id": 4,
+      "imgURL": "",
+      "room": "Asylum",
+      "description": "Hàng đêm bạn bị dằn vặt bởi cùng một cơn ác mộng … Bạn mơ thấy những tiếng thét đau đớn, những bức tường đẫm máu và những con búp bê với ánh mắt vô hồn. Những cơn ác mộng luôn đưa bạn đến cùng một nơi, … Asylum! Có thật chỉ là những giấc mơ? Hay đó là ảo ảnh của quá khứ bị lãng quên từ lâu? Để tìm câu trả lời, bạn đến gặp bác sĩ Heisenberg, một nhà điều trị tâm thần nổi tiếng, để được giúp đỡ!",
+      "amount": "2-4",
+      "avaliable": true,
+      "difficulty": 3
+    },
+    {
+      "id": 5,
+      "imgURL": "",
+      "room": "Secret Agent",
+      "description": "Tổ chức Kingsman đang gặp nguy và cần tới những thực tập sinh! Galahad đã bị mất trí nhớ, còn chiếc đĩa CD chứa dữ liệu về các điệp viên đã bị đánh cắp! Nhiệm vụ của các bạn là đột nhập vào nơi ở của Whiskey và tìm ra chiếc đĩa CD trước những kẻ thù chúng ta…",
+      "amount": "2-6",
+      "avaliable": true,
+      "difficulty": 4
+    },
+    {
+      "id": 6,
+      "room": "Elixir of Dreams",
+      "description": "Ở ranh giới giữa thực và mơ, là một quán café huyền bí, nơi cất giấu công thức của một loại thần dược giúp bạn luôn cảm thấy hạnh phúc, quên hết mọi âu lo. Cơ hội tìm ra công thức kỳ diệu này mong manh như một lớp sương mù. Quán cafe của những giấc mơ chỉ xuất hiện duy nhất trong 60 phút, và sau đó sẽ biến mất không để lại dấu vết cùng những bí ẩn và ảo diệu của mình. Liệu trong thời gian ngắn ngủi đó, bạn có thể tìm ra công thức thần dược mơ ước của riêng mình?",
+      "amount": "2-4",
+      "avaliable": true,
+      "difficulty": 4
+    }
+  ],
+  "customers": [
+    {
+      "name": "Duong Thanh Luong",
+      "gender": "Male",
+      "dob": "23-11-1999",
+      "address": " Nhân Chính, Thanh Xuân, Hà Nội",
+      "phone": "0888931199",
+      "email": "duongthanhluong2311@gmail.com",
+      "playing-date": "11-1-2022"
+    }
+  ]
+}

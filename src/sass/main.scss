@@ -1,0 +1,224 @@
+@import './sources/variables';
+@import './sources/typography';
+@import './sources/mixins';
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-montserrat;
+}
+
+body{
+  color: #fff;
+  font-size: 16px;
+}
+
+ul{
+  list-style: none;
+  li{
+
+  }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.container-fruid {
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+
+
+// Social Button
+.social{
+  position: fixed;
+  bottom: 40px;
+  right: 0;
+  
+
+  .social-facebook {
+    display: block;
+    color: #fff;
+    z-index: 1000;
+    background-color: #D9A900;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px;
+
+    i{
+      font-size:27px;
+    }
+  }
+  
+}
+
+
+// NAVBAR
+.navbar {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+
+  img {
+    width: 84.95%;
+    margin: 0 calc(45px/2);
+
+  }
+
+  .navigation {
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    padding: 0 0 0 30.5px;
+
+    li{
+      margin: 0 calc(45px/2);
+
+      i{
+        font-size:30px;
+      }
+    }
+  }
+}
+
+
+//Slider 
+.slider{
+
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  
+  &-1{
+    position: relative;
+
+    .cover{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      background: linear-gradient(90.62deg, #000000 41.09%, rgba(20, 20, 20, 0) 123.68%);
+      color: #fff;
+    }
+
+    .content {
+      position: absolute;
+      color: #fff;
+      top: 26%;
+      left: 9%;
+
+      .puzzle{
+        display: flex;
+        font-size: 18px;
+        margin: 0 0 18px 0;
+
+        span {
+          margin: 0 0 0 14px ;
+        }
+      }
+
+      h1{
+        font-size:60px;
+      }
+
+      p{
+        font-size:36px;
+        font-weight: 500;
+      }
+
+      .link-banner{
+        
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        img{
+          position: absolute;
+           margin: 50px 0 0 0;
+        }
+
+        button{
+          margin: 50px 0 0 105px;
+          padding: 15px 40px;
+          background-color: #D9A900;
+          font-size: 22px;
+          font-weight: 500;
+          color: #fff;
+        }
+      } 
+    }
+  }
+}
+
+
+
+.rooms { 
+
+
+  .title {
+    h3 {
+      font-size: map-get($map: $font, $key: 'h2');
+    }
+
+    p { 
+      font-size: map-get($map: $font, $key: 'p');
+    }
+
+    &::after {
+      content: '';
+      width: 6.88%;
+      display: block;
+      border: 2.5px solid #D9A900;
+      background-color: #D9A900;
+      margin: 10px 0;
+    }
+  }
+
+  .rooms-container {
+
+  }
+}
+
+
+
+.room {
+  @innclude col();
+
+  img {
+    width: 100%
+  }
+}
